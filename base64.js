@@ -1,4 +1,4 @@
-// in windows
+// in browser
 // btoa(encodeURI('hello, 你好')); aGVsbG8sJTIwJUU0JUJEJUEwJUU1JUE1JUJE
 // decodeURI(atob('aGVsbG8sJTIwJUU0JUJEJUEwJUU1JUE1JUJE')); hello, 你好
 
@@ -118,5 +118,3 @@ const base64 = {
     return string;
   }
 };
-
-// Uint8Array
